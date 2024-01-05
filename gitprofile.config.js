@@ -33,8 +33,9 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C',
+    'C++',
+    'Python',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -43,11 +44,10 @@ const config = {
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Matlab',
   ],
+  /*
   experiences: [
     {
       company: 'Company Name',
@@ -64,6 +64,8 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
+  */
+
   /* certifications: [
     {
       name: 'Lorem ipsum',
@@ -74,16 +76,10 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Michigan - Ann Arbor',
+      degree: 'Bachelor',
+      from: '2024',
+      to: '2021',
     },
   ],
 
