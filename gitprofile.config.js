@@ -78,34 +78,29 @@ const config = {
     {
       institution: 'University of Michigan - Ann Arbor',
       degree: 'Bachelor',
-      from: '2024',
-      to: '2021',
+      from: '2021',
+      to: '2024',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'iGYM',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://www.igym.solutions/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
+  /*
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
+  */
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -175,11 +170,14 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
+  /*
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
+  */
+
 };
 
 export default config;
